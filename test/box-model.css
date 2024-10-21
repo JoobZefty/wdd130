@@ -1,0 +1,41 @@
+body {
+    background: #efdaad;
+}
+#line {
+    background: black;
+}
+#wrapper {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #b89e66;
+    padding: 30px;
+}
+.qbox1, .qbox2, .qbox3 {
+    box-sizing: border-box;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+}
+.qbox1 {
+    margin: 0 auto;
+    border: 25px solid black;
+    padding: 10px 30px;
+    width: 500px;
+    background: lightgrey;
+    border-radius: 15px;
+}
+.qbox2 {
+    margin: 0 auto;
+    border: 10px dotted maroon;
+    padding: 10px 30px;
+    width: 500px;
+    background:lightcoral;
+    border-radius: 50px;
+}
+.qbox3 {
+    margin: 0 auto;
+    border: 30px double cornflowerblue;
+    padding: 10px 30px;
+    width: 500px;
+    background:lavender;
+    border-radius: 30px;
+}
