@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "storm";
+    src: url("Storm Gust.ttf");
+}
+@font-face {
+    font-family: "ghast";
+    src: url("Ghastly Panic.ttf");
+}
+
+body main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+}
+
+header {
+    background-color:#11112b;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+    padding:15px;
+    border-radius: 10%;
+    
+}
+
+header nav ul li:hover{
+    background-color:#c3c3db;
+    color: #302652;
+}
+
+body{
+    background-color: #302652;
+    color:#c3c3db;
+    font-family: "ghast";
+}
+
+h1 {
+    font-family: "storm";
+    margin:auto auto;
+    text-align: center;
+    font-size:100px;
+    grid-area: 1/4/2/7;
+    border: dotted #11112b 10px;
+    border-radius: 10%;
+}
+
+main img{
+    margin:0 auto;
+    display: block;
+    text-align:center;
+    border: dashed #11112b 10px;
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    grid-area: 1/1/2/4;
+}
+
+#pump{
+    grid-area: 2/1/3/3;
+    border-radius: 10%;
+    background-color:rgb(113, 66, 8);
+    margin: 20px;
+    padding: 20px;
+}
+
+#bat {
+    grid-area: 2/3/3/5;
+    border-radius: 10%;
+    background-color:black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#skel {
+    grid-area: 2/5/3/7;
+    border-radius: 10%;
+    background-color:aliceblue;
+    color:#11112b;
+    margin: 20px;
+    padding: 20px;
+}
+
