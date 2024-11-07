@@ -136,12 +136,12 @@
   background-color: green; 
   grid-area:2/1/3/2;
   z-index:4;
+  float: left;
 
 } 
 .yellow5 {
   background-color: gold; 
   grid-area:2/1/4/3;
-  float:left;
 } 
 .blue5 {
   background-color: blue; 
